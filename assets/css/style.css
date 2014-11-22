@@ -435,7 +435,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5 {
-  color: #FF8CF1;
+  color: #00FFFF;
   font-style: normal;
 }
 a {
@@ -467,7 +467,7 @@ a {
   text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.3);
 }
 #home a {
-  color: #58C5F8;
+  color: #F85E58;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
