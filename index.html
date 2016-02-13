@@ -3,27 +3,44 @@
 	<meta charset="utf-8">
 	<title>Nyan Lynn Htut - Is Me</title>
 
-	<link rel="stylesheet" type="text/css" href="http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,100">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- [if IE 9] >
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<! [endif] -->
 </head>
 <body>
-	<div class="continer">
-		<div class="quarter"></div>
-		<div class="quarter"></div>
-		<div class="quarter"></div>
-		<div class="quarter"></div>
-	</div>
+	<main class="wrapper">
+		<nav class="navigation">
+			<section class="container">
+				<ul class="navigation-list float-right">
+					<li class="navigation-item">
+						<a href="/" class="navigation-link">Home</a>
+					</li>
+					<li class="navigation-item">
+						<a href="https://github.com/nyanlynnhtut" target="_blank" class="navigation-link">Github</a>
+					</li>
+					<li class="navigation-item">
+						<a href="https://twitter.com/nyanlynnhtut" target="_blank" class="navigation-link">Twitter</a>
+					</li>
+				</ul>
+			</section> <!-- end of section.container -->
+		</nav> <!-- end of nav.navigation -->
 
-	<div class="container first-block"  id="home">
-		<div class="inner-block">
-			<h1>Currently working as Developer at <br><a href="http://hexcores.com" target="blank">Hexcores</a></h1>
-		</div>
-	</div>
+		<section class="container align-center" id="hero">
+			<img src="assets/img/me.jpg" alt="">
+		</section>
 
+		<section class="container align-center" id="about-me">
+			<h1>Nyan Lynn Htut</h1>
+			<h3>Web Developer at <a href="http://hexcores.com" target="_blank">Hexcores</a></h3>
+		</section>
+	</main> <!-- end of main.wrapper -->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
 </html>
